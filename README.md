@@ -21,27 +21,6 @@ The approach leverages self-supervised learning techniques to reconstruct images
 - **Vision Transformer (ViT):** Employs a Transformer architecture optimized for image data.
 - **CIFAR-10 Dataset:** Demonstrates training on a subset of classes while testing generalization on unseen classes.
 
-## Installation
-
-Clone the repository and install the required dependencies:
-
-```bash
-git clone https://github.com/siddhartha296/zsl-open-class-detector.git
-cd zsl-open-class-detector
-pip install -r requirements.txt
-```
-
-## Usage
-
-1. **Training:** Run the training script to train the model on the known classes.
-2. **Testing:** Use the testing script to evaluate the model on unseen classes, where the model performs zero-shot classification.
-
-Example commands:
-
-```bash
-python train.py
-python test.py
-```
 
 ## Author
 
